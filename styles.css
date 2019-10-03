@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://www.washingtonpost.com/resizer/vNjeCV4yNZfE6Ajga3Hye-1H850=/1484x0/arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/22QYWOGX3EI6RA4EXTCUSL7PJE.jpg") no-repeat center center/cover;
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    font-size: 70px;
+    color: lawngreen;
+    font-weight: bold;
+    padding: 18%;
+    font-family: "Times New Roman", Times, serif;
+}
+
+#para {
+    color: wheat;
+    text-align: center;
+    margin-top: -10px;
+}
+
+nav>ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(89, 182, 89);
+    font-weight: bold;
+    font-size: 25px;
+}
+
+nav>ul>li {
+    float: right;
+}
+
+nav>ul>li>a {
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+}
+
+nav>ul>li>a:hover {
+    background-color: black;
+}
+
+
+/*contacts styling*/
+
+#contacts>p {
+    font-size: 38px;
+    font-weight: bold;
+    text-align: center;
+    color: lime;
+    padding: 2%;
+}
+
+#contacts>ul>li {
+    font-size: 40px;
+    text-align: center;
+    font-weight: normal;
+    color: lightgreen;
+    list-style: none;
+}
+
+
+/*about styling*/
+
+#about>p {
+    font-size: 40px;
+    font-family: forte;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    padding: 2%;
+    color: lightgreen;
+    font-weight: normal;
+}
+
+h2 {
+    font-size: 70px;
+    text-align: center;
+    color: lawngreen;
+    font-weight: bold;
+    padding: 2%;
+}
+
+img {
+    width: 600px;
+    border-radius: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+
+/*service styling*/
+
+h4 {
+    font-size: 70px;
+    text-align: center;
+    color: lawngreen;
+    font-weight: bold;
+    padding: 2%;
+}
+
+#services {
+    font-size: 40px;
+    color: lightgreen;
+    font-weight: normal;
+    text-align: center;
+}
+
+#images {
+    column-count: 3;
+    margin-top: 30px;
+}
+
+#images>img {
+    width: 500px;
+}
+
+#images2 {
+    column-count: 3;
+    margin-top: 30px;
+}
+
+#images2>img {
+    width: 450px;
+}
+
+#imagee {
+    height: 290px;
+    width: 300px;
+}
+
+#imageee {
+    height: 270px;
+    width: 300px;
+}
+
+#images>p,
+#images2>p {
+    color: lightgreen;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+/*my accounts styling*/
+
+#account>h3 {
+    font-size: 70px;
+    text-align: center;
+    color: lawngreen;
+    font-weight: bold;
+    margin-bottom: 2%;
+    padding: 2%;
+}
+
+#account>ol>li {
+    font-size: 40px;
+    color: lightgreen;
+    text-decoration: none;
+    list-style-type: none;
+    text-align: center;
+    font-family: forte;
+}
+
+form {
+    width: 15%;
+    margin: 0 auto;
+    color: yellowgreen;
+    padding: 2%;
+    font-size: 150%;
+}
+
+label {
+    margin-top: 100%;
+    display: block;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="submit"] {
+    padding: 6px;
+    border-radius: 10%;
+    width: 150%;
+}
+
+
+/*how it works css*/
+
+h5 {
+    text-align: center;
+    color: lawngreen;
+    font-size: 60px;
+    font-weight: bold;
+    padding: 2%;
+}
+
+#howitworks>P {
+    align-content: flex-start;
+    font-size: 37px;
+    color: lightgreen;
+    font-weight: normal;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3px;
+    padding: 3%;
+    font-family: forte;
+}
+
+footer {
+    position: fixed;
+    left: 43%;
+    bottom: 0.5px;
+}
+
+footer p {
+    color: yellowgreen;
+    text-align: center;
+    font-size: 25px;
+}
+
+footer i {
+    margin-left: 15px;
+}
+
+footer a {
+    color: yellowgreen;
+}
+
+span {
+    color: limegreen;
+}
+
+em {
+    color: limegreen;
+}
